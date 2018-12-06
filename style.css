@@ -41,6 +41,7 @@ h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
   color: #4aaaa5;
+  position: relative;
 }
 
 h1 {
@@ -66,6 +67,7 @@ h3 {
   color: #ffffff;
   background: #ffffff;
   border-bottom: 2px solid #cccccc;
+  position: absolute;
 }
 
 #logo {
