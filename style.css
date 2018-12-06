@@ -1,8 +1,3 @@
-
-<style>
-@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Bungee|Kaushan+Script|Pacifico|Russo+One');
-</style>
-
 body {
   font-family: 'Bungee', cursive;
   font-size: 18px;
@@ -144,13 +139,18 @@ h3, h2 {
 }
 
 /* portfolio page */
+.section {
+  width: 10%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+}
 
 .work {
   position: relative;
-  float: left;
-  width: 274px;
-  margin: 20px 0 25px;
-  overflow: auto;
+  width: 250px;
+  margin: 0 auto;
+  margin-bottom: 1%;
 }
 
 .work:nth-child(even) {
@@ -167,7 +167,29 @@ h3, h2 {
   position: absolute;
   bottom: 20px;
   width: 100%;
+  margin-bottom: 120px;
+  font-weight: 300;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+  border-bottom: 0;
+}
+.work h4 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
   margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+  border-bottom: 0;
+}
+.work h5 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  margin-bottom: 60px;
   font-weight: 300;
   line-height: 30px;
   color: #ffffff;
