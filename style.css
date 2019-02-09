@@ -3,12 +3,13 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("../images/concrete_seamless.png");
 }
 
 * {
   box-sizing: border-box;
 }
+
+
 
 /* general */
 
@@ -237,10 +238,12 @@ textarea {
 }
 
 input[type=submit] {
-  padding: 10px 30px;
+  padding: 5px 5px;
   font-size: 18px;
+  height: 35px;
+  width: 200px;
   color: #ffffff;
   cursor: pointer;
-  background: #4aaaa5;
+  background: blue;
   border: 0 none;
 }
