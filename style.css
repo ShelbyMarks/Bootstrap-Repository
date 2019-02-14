@@ -38,6 +38,7 @@ h3 {
   font-weight: 700;
   color: #4aaaa5;
   position: relative;
+  
 }
 
 h1 {
@@ -162,6 +163,8 @@ h3, h2 {
   width: 100%;
   border: 0 none;
   opacity: 0.8;
+  border-style: inset;
+  border-width: 2px;
 }
 
 .work h3 {
@@ -171,9 +174,10 @@ h3, h2 {
   margin-bottom: 120px;
   font-weight: 300;
   line-height: 30px;
-  color: #ffffff;
+  color: blue;
   text-align: center;
   border-bottom: 0;
+  font-weight: bold;
 }
 .work h4 {
   position: absolute;
@@ -182,7 +186,8 @@ h3, h2 {
   margin-bottom: 0;
   font-weight: 300;
   line-height: 30px;
-  color: #ffffff;
+  color: blue;
+  font-weight: bold;
   text-align: center;
   border-bottom: 0;
 }
