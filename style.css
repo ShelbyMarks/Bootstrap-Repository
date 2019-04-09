@@ -160,11 +160,15 @@ h3, h2 {
 }
 
 .work img {
-  width: 100%;
+  min-width: 150Px;
+  min-height: 100Px;
+  max-width: 150Px;
+  max-height: 100Px;
   border: 0 none;
   opacity: 0.8;
   border-style: inset;
   border-width: 2px;
+  border-color: #000000;
 }
 
 .work h3 {
@@ -250,5 +254,6 @@ input[type=submit] {
   color: #ffffff;
   cursor: pointer;
   background: blue;
-  border: 0 none;
+  border: 5;
+  border-color: #000000;
 }
